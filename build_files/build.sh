@@ -3,7 +3,7 @@
 set -ouex pipefail
 
 ### Cleanup from Zirconium
-dnf remove -y \ 
+dnf -y remove \ 
 	foot \
 	NetworkManager-adsl \
   	NetworkManager-bluetooth \
