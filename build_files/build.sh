@@ -4,16 +4,6 @@ set -ouex pipefail
 
 ### Cleanup from Zirconium
 dnf -y remove foot \
-	NetworkManager-adsl \
-  	NetworkManager-bluetooth \
-  	NetworkManager-config-connectivity-fedora \
-  	NetworkManager-libnm \
-  	NetworkManager-openconnect \
-  	NetworkManager-openvpn \
-  	NetworkManager-strongswan \
-  	NetworkManager-vpnc \
-  	NetworkManager-wifi \
-  	NetworkManager-wwan \
   	audit \
   	cups \
   	cups-pk-helper \
