@@ -3,8 +3,7 @@
 set -ouex pipefail
 
 ### Cleanup from Zirconium
-dnf -y remove \ 
-	foot \
+dnf -y remove foot \
 	NetworkManager-adsl \
   	NetworkManager-bluetooth \
   	NetworkManager-config-connectivity-fedora \
